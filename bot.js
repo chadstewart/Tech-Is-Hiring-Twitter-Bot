@@ -2,7 +2,7 @@
 const Twit = require("twit");
 
 // We need to include our configuration file...
-const twit = new Twit(require("./config.js"));
+const twit = new Twit(require("./config/config.js"));
 
 const stream = twit.stream('statuses/filter', {track: '#TechIsHiring'});
 

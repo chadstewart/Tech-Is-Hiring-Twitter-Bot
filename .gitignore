@@ -1,4 +1,4 @@
-bot/node_modules/
-bot/config.js
+node_modules/
 Docs.md
 .git-old/
+old-config
