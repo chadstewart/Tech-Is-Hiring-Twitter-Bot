@@ -1,5 +1,5 @@
 const Twit = require("twit");
-const banned = require("./banned/banned.json");
+const banned = require("./banned/banned.js");
 const twit = new Twit(require("./config/config.js"));
 
 const stream = twit.stream("statuses/filter", { track: "#TechIsHiring" });
