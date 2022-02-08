@@ -9,7 +9,7 @@ function responseCallback(err, data, response) {
 }
 
 stream.on("tweet", (tweet) => {
-  const isNotBanned = !banned.includes(tweet.user.id);
+  const isNotBanned = !banned.includes(tweet.user.id_str);
 
   if (isNotBanned) {
     // retweet
