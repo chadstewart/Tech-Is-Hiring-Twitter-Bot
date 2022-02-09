@@ -23,7 +23,7 @@ ACCESS_TOKEN=*Your Access Token*
 ACCESS_TOKEN_SECRET=*Your Access Token Secret*
 ```
 
-In between those quotes, instead of `'key'`, paste the appropriate info from the Details page. 
+In the appropriate section, paste the appropriate info from the Details page.
 
 ### Run the app
 
@@ -32,6 +32,10 @@ Now type the following in the command line.
 ```bash
 node bot.js
 ``` 
+
+### Note
+
+App is built to be deployed on heroku. Ensure to set the environment variables on the heroku server this is deployed to.
 
 ### Thanks
 
