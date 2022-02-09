@@ -2,12 +2,10 @@
 
 Likes and retweets the latest tweet using the **"#TechIsHiring"** hashtag. 
 
-### Install twit
-
-Install twit. The library that lets us talk to Twitter.
+### Install dependencies
 
 ```bash
-npm i twit
+npm install
 ```
  
 ### Connecting to Twitter 
@@ -15,6 +13,15 @@ npm i twit
  - Create a Twitter App on Twitter Developers : [https://apps.twitter.com/app/new ](https://apps.twitter.com/app/new). 
  
  - Next you'll see a screen with a "Details" tab. Setup the App and "Application Type", choose "Read and Write". 
+
+Create a `'config.env'` file in the config folder. The config.env must contain:
+
+```.env
+API_KEY=*Your API Key*
+API_SECRET_KEY=*Your API Secret Key*
+ACCESS_TOKEN=*Your Access Token*
+ACCESS_TOKEN_SECRET=*Your Access Token Secret*
+```
 
 In between those quotes, instead of `'key'`, paste the appropriate info from the Details page. 
 

@@ -1,0 +1,188 @@
+{
+  created_at: 'Wed Feb 09 12:08:32 +0000 2022',
+  id: 1491383510166347800,
+  id_str: '1491383510166347778',
+  text: 'RT @Femisonic: HEY DEVS, TAKE THIS SURVEY AND WIN A MACBOOK\n' +
+    'https://t.co/RLKrSgjUzy\n' +
+    '\n' +
+    '#softwaredevelopment \n' +
+    '#TechIsHiring \n' +
+    '#web3\n' +
+    '#NFTs\n' +
+    '#Flok…',
+  source: '<a href="https://www.fabricio-dev.com.br/" rel="nofollow">twitter-bot-fab</a>',
+  truncated: false,
+  in_reply_to_status_id: null,
+  in_reply_to_status_id_str: null,
+  in_reply_to_user_id: null,
+  in_reply_to_user_id_str: null,
+  in_reply_to_screen_name: null,
+  user: {
+    id: 1051649960,
+    id_str: '1051649960',
+    name: 'Fabricio Cavalcante',
+    screen_name: 'Fabriciosx',
+    location: 'Rio de janeiro',
+    url: null,
+    description: null,
+    translator_type: 'none',
+    protected: false,
+    verified: false,
+    followers_count: 3933,
+    friends_count: 108,
+    listed_count: 56,
+    favourites_count: 0,
+    statuses_count: 717449,
+    created_at: 'Tue Jan 01 02:32:07 +0000 2013',
+    utc_offset: null,
+    time_zone: null,
+    geo_enabled: true,
+    lang: null,
+    contributors_enabled: false,
+    is_translator: false,
+    profile_background_color: '9FB272',
+    profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png',
+    profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png',
+    profile_background_tile: true,
+    profile_link_color: '799A7B',
+    profile_sidebar_border_color: 'D0C9AF',
+    profile_sidebar_fill_color: '292C25',
+    profile_text_color: '457079',
+    profile_use_background_image: true,
+    profile_image_url: 'http://pbs.twimg.com/profile_images/1379573441876090882/OERRsfhv_normal.jpg',
+    profile_image_url_https: 'https://pbs.twimg.com/profile_images/1379573441876090882/OERRsfhv_normal.jpg',
+    profile_banner_url: 'https://pbs.twimg.com/profile_banners/1051649960/1357242372',
+    default_profile: false,
+    default_profile_image: false,
+    following: null,
+    follow_request_sent: null,
+    notifications: null,
+    withheld_in_countries: []
+  },
+  geo: null,
+  coordinates: null,
+  place: null,
+  contributors: null,
+  retweeted_status: {
+    created_at: 'Wed Feb 09 11:29:36 +0000 2022',
+    id: 1491373715053252600,
+    id_str: '1491373715053252620',
+    text: 'HEY DEVS, TAKE THIS SURVEY AND WIN A MACBOOK\n' +
+      'https://t.co/RLKrSgjUzy\n' +
+      '\n' +
+      '#softwaredevelopment \n' +
+      '#TechIsHiring \n' +
+      '#web3… https://t.co/3sBHK0V2Kr',
+    display_text_range: [ 0, 140 ],
+    source: '<a href="https://mobile.twitter.com" rel="nofollow">Twitter Web App</a>',
+    truncated: true,
+    in_reply_to_status_id: null,
+    in_reply_to_status_id_str: null,
+    in_reply_to_user_id: null,
+    in_reply_to_user_id_str: null,
+    in_reply_to_screen_name: null,
+    user: {
+      id: 822467311361818600,
+      id_str: '822467311361818625',
+      name: 'Femi Ola🇳🇬',
+      screen_name: 'Femisonic',
+      location: 'localhost',
+      url: 'https://developereconomics.net/?member_id=fwxBxuIX&lang=en&locale=en',
+      description: 'Software Engineer | Data Scientist |  Author ; Hello- Python  | I Fly Drone Too \n' +
+        '| Co-Founder @codesconduct',
+      translator_type: 'none',
+      protected: false,
+      verified: false,
+      followers_count: 1362,
+      friends_count: 4998,
+      listed_count: 13,
+      favourites_count: 1617,
+      statuses_count: 7312,
+      created_at: 'Fri Jan 20 15:34:22 +0000 2017',
+      utc_offset: null,
+      time_zone: null,
+      geo_enabled: true,
+      lang: null,
+      contributors_enabled: false,
+      is_translator: false,
+      profile_background_color: 'F5F8FA',
+      profile_background_image_url: '',
+      profile_background_image_url_https: '',
+      profile_background_tile: false,
+      profile_link_color: '1DA1F2',
+      profile_sidebar_border_color: 'C0DEED',
+      profile_sidebar_fill_color: 'DDEEF6',
+      profile_text_color: '333333',
+      profile_use_background_image: true,
+      profile_image_url: 'http://pbs.twimg.com/profile_images/1455603797103894535/7dst9iYZ_normal.jpg',
+      profile_image_url_https: 'https://pbs.twimg.com/profile_images/1455603797103894535/7dst9iYZ_normal.jpg',
+      profile_banner_url: 'https://pbs.twimg.com/profile_banners/822467311361818625/1635878141',
+      default_profile: true,
+      default_profile_image: false,
+      following: null,
+      follow_request_sent: null,
+      notifications: null,
+      withheld_in_countries: []
+    },
+    geo: null,
+    coordinates: null,
+    place: null,
+    contributors: null,
+    is_quote_status: false,
+    extended_tweet: {
+      full_text: 'HEY DEVS, TAKE THIS SURVEY AND WIN A MACBOOK\n' +
+        'https://t.co/RLKrSgjUzy\n' +
+        '\n' +
+        '#softwaredevelopment \n' +
+        '#TechIsHiring \n' +
+        '#web3\n' +
+        '#NFTs\n' +
+        '#FlokiInu  #Metaverse #SamsungUnpacked \n' +
+        '#bugbountytips\n' +
+        '#javascript\n' +
+        '#Angular\n' +
+        '#Metaverse\n' +
+        '#NFTCommunity\n' +
+        '#asuustrike\n' +
+        '#blockchain\n' +
+        '#BTC \n' +
+        '#olosho \n' +
+        '#fuelscarcity https://t.co/acCL7yGJTL',
+      display_text_range: [Array],
+      entities: [Object],
+      extended_entities: [Object]
+    },
+    quote_count: 0,
+    reply_count: 0,
+    retweet_count: 3,
+    favorite_count: 3,
+    entities: {
+      hashtags: [Array],
+      urls: [Array],
+      user_mentions: [],
+      symbols: []
+    },
+    favorited: false,
+    retweeted: false,
+    possibly_sensitive: false,
+    filter_level: 'low',
+    lang: 'en'
+  },
+  is_quote_status: false,
+  quote_count: 0,
+  reply_count: 0,
+  retweet_count: 0,
+  favorite_count: 0,
+  entities: {
+    hashtags: [ [Object], [Object], [Object], [Object] ],
+    urls: [ [Object] ],
+    user_mentions: [ [Object] ],
+    symbols: []
+  },
+  favorited: false,
+  retweeted: false,
+  possibly_sensitive: false,
+  filter_level: 'low',
+  lang: 'en',
+  timestamp_ms: '1644408512046'
+}

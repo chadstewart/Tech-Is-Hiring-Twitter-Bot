@@ -11,7 +11,7 @@ function responseCallback(err, data, response) {
 stream.on("tweet", (tweet) => {
   console.log(tweet);
 
-  const isNotBanned = !banned.includes(tweet.user.id_str);
+  const isNotBanned = checkIfBanned(tweet);
 
   if (isNotBanned) {
     // retweet
@@ -19,7 +19,15 @@ stream.on("tweet", (tweet) => {
     // like
     twit.post("favorites/create", { id: tweet.id_str }, responseCallback);
   } else {
-    console.log(`${tweet.user.name} is banned`);
+    console.log(`${tweet.user.name} is banned!`);
   }
   
 });
+
+function checkIfBanned(tweet) {
+  if("retweeted_status" in tweet) {
+    return !(banned.includes(tweet.user.id_str) || banned.includes(tweet.retweeted_status.user.id_str));
+  }
+
+  return !banned.includes(tweet.user.id_str);
+}
