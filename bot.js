@@ -16,5 +16,8 @@ stream.on("tweet", (tweet) => {
     twit.post("statuses/retweet/:id", { id: tweet.id_str }, responseCallback);
     // like
     twit.post("favorites/create", { id: tweet.id_str }, responseCallback);
+  } else {
+    console.log(`${tweet.user.name} is banned`);
   }
+  
 });

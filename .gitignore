@@ -1,4 +1,3 @@
 node_modules/
 Docs.md
-.git-old/
-old-config
+config.env
